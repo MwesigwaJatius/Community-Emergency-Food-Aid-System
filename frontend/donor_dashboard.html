@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Donor and Relief Agency Dashboard</h1>
+    </header>
+    <main>
+        <section id="statistics">
+            <h2>Real-time Food Aid Statistics</h2>
+            <p>Total Aid Given: <span id="total-aid">0</span> kg</p>
+            <p>Remaining Aid: <span id="remaining-aid">0</span> kg</p>
+            <p>Number of Distribution Points: <span id="dist-points">0</span></p>
+        </section>
+        <section id="distribution-progress">
+            <h2>Distribution Progress</h2>
+            <progress id="distribution-progress-bar" value="0" max="100"></progress>
+            <p id="distribution-status">0% distributed</p>
+        </section>
+        <section id="report-download">
+            <h2>Download Reports</h2>
+            <button id="download-report">Download Report</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
